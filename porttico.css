@@ -6,7 +6,7 @@ body
 #top-header
 {
     margin: 0px auto;
-    width: 80%;
+    width: 75%;
 
     border-bottom: 1px solid black;
     overflow: hidden;
@@ -24,6 +24,7 @@ body
     padding: 0px;
 
     float: right;
+    font-size: 14px;
 }
 
 .horizontal-menu li
@@ -37,4 +38,40 @@ body
 {
     color: black;
     text-decoration: none;
+}
+
+#main
+{
+    margin: 0px auto;
+    width: 75%;
+    overflow: hidden;
+}
+
+#graphic
+{
+    margin: 2em auto 0 auto;
+    width: 98%;
+    height: 300px;
+    border: 1px dashed black;
+}
+
+#other
+{
+    margin: 2em auto;
+    width: 98%;
+    height: 200px;
+    border: 1px dashed black;
+}
+
+#footer
+{
+    margin: 0px auto;
+    width: 75%;
+    border-top: 1px solid black;
+}
+
+#footer p
+{
+    font-size: 10px;
+    text-align: center;
 }
