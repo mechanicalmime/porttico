@@ -79,9 +79,8 @@
 
 #monterrey
 {
-    max-width: 400px;
-    display: block;
     margin: 0 auto;
+    display: block;
 }
 
 #contacto-container
@@ -97,6 +96,16 @@
 {
     #quote
     {
-        font-size: 12px;
+        font-size: 18px;
+    }
+
+    #maze-container
+    {
+        display: none;
+    }
+
+    #monterrey
+    {
+        width: 300px;
     }
 }
