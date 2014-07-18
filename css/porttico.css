@@ -67,11 +67,6 @@ body
     font-size: 2.5vw;
 }
 
-#soluciones
-{
-//    color: red;
-}
-
 #oferta-container
 {
     margin-bottom: 3em;
@@ -86,9 +81,18 @@ body
     font-size: 18px;
 }
 
+#monterrey
+{
+    display: block;
+    margin: 0 auto;
+    width: 70%;
+}
+
 #bottom-container
 {
-    height: 100px;
+    font-size: 18px;
+    color: white;
+    padding: 2em 0;
     width: 100%;
     background-color: #333;
 }
