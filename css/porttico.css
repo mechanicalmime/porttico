@@ -1,15 +1,10 @@
-body
-{
-    color: #000000;
-}
-
 #logo
 {
     color: #333;
     font-size: 70px;
 }
 
-#nav-container
+#inicio-container
 {
     padding: 0px;
     width: 100%;
@@ -32,12 +27,14 @@ body
 
 #menu li a
 {
-    color: #333;
+    font-size: 18px;
+    color: #999;
 }
 
 #menu li.active a
 {
-    background-color: #f5f5f5;
+    color: #000;
+    background-color: white;
     background-image: none;
     box-shadow: none;
 }
@@ -54,28 +51,27 @@ body
 
 #quote-container
 {
-    padding: 4em 0;
+    padding: 3em 0;
     width: 100%;
     background-color: #FF6B6B;
     color: white;
-    margin-top: 20px;
     margin-bottom: 3em;
 }
 
 #quote
 {
-    font-size: 2.5vw;
+    font-size: 48px;
 }
 
-#oferta-container
+#servicios-container
 {
     margin-bottom: 3em;
 }
 
 #nosotros-container
 {
-    padding: 4em 0;
-    color: white;
+    padding: 3em 1em;
+    color: #333;
     width: 100%;
     background-color: #4ECDC4;
     font-size: 18px;
@@ -83,16 +79,24 @@ body
 
 #monterrey
 {
+    max-width: 400px;
     display: block;
     margin: 0 auto;
-    width: 70%;
 }
 
-#bottom-container
+#contacto-container
 {
     font-size: 18px;
     color: white;
     padding: 2em 0;
     width: 100%;
     background-color: #333;
+}
+
+@media only screen and (max-device-width: 480px)
+{
+    #quote
+    {
+        font-size: 12px;
+    }
 }
